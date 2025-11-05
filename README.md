@@ -27,6 +27,8 @@ make -C . -j
 ./build/bin/fat16tool disco.img add /caminho/arquivo.txt ARQTXT.TXT
 ./build/bin/fat16tool disco.img rm ARQTXT.TXT
 ./fat16tool/build/bin/fat16tool "imagens disco/disco1.img" list
+./fat16tool/build/bin/fat16tool "imagens disco/disco1.img" add "/etc/hostname" HOSTNAME.TXT
+./fat16tool/build/bin/fat16tool "imagens disco/disco1.img" rm HOSTNAME.TXT 
 ```
 
 Limitações e observações:
